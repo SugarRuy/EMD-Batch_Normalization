@@ -1,0 +1,54 @@
+Using gpu device 0: GeForce GTX 980 Ti (CNMeM is disabled)
+/home/rayleigh/WorkSpace/Batch-Normalization/PoolLayer.py:17: UserWarning: max_pool_2d() will have the parameter ignore_border default value changed to True (currently False). To have consistent behavior with all Theano version, explicitly add the parameter  ignore_border=True. (this is also faster than ignore_border=False)
+  self.output = downsample.max_pool_2d(input, pool_shape)
+Epoch 1 : Validation Miss rate 0.030400
+Epoch 2 : Validation Miss rate 0.021200
+Epoch 3 : Validation Miss rate 0.018300
+Epoch 4 : Validation Miss rate 0.016800
+Epoch 5 : Validation Miss rate 0.013500
+Epoch 6 : Validation Miss rate 0.014500
+Epoch 7 : Validation Miss rate 0.015900
+Epoch 8 : Validation Miss rate 0.012300
+Epoch 9 : Validation Miss rate 0.012600
+Epoch 10 : Validation Miss rate 0.010900
+Epoch 11 : Validation Miss rate 0.011300
+Epoch 12 : Validation Miss rate 0.011300
+Epoch 13 : Validation Miss rate 0.010400
+Epoch 14 : Validation Miss rate 0.010400
+Epoch 15 : Validation Miss rate 0.010600
+Epoch 16 : Validation Miss rate 0.009700
+Epoch 17 : Validation Miss rate 0.009600
+Epoch 18 : Validation Miss rate 0.011000
+Epoch 19 : Validation Miss rate 0.011100
+Epoch 20 : Validation Miss rate 0.010500
+Epoch 21 : Validation Miss rate 0.011100
+Epoch 22 : Validation Miss rate 0.011200
+Epoch 23 : Validation Miss rate 0.009200
+Epoch 24 : Validation Miss rate 0.009600
+Epoch 25 : Validation Miss rate 0.010700
+Epoch 26 : Validation Miss rate 0.010100
+Epoch 27 : Validation Miss rate 0.009200
+Epoch 28 : Validation Miss rate 0.008300
+Epoch 29 : Validation Miss rate 0.009800
+Epoch 30 : Validation Miss rate 0.010000
+Epoch 31 : Validation Miss rate 0.009700
+Epoch 32 : Validation Miss rate 0.009500
+Epoch 33 : Validation Miss rate 0.009300
+Epoch 34 : Validation Miss rate 0.007600
+Epoch 35 : Validation Miss rate 0.009300
+Epoch 36 : Validation Miss rate 0.006900
+Epoch 37 : Validation Miss rate 0.009900
+Epoch 38 : Validation Miss rate 0.008400
+Epoch 39 : Validation Miss rate 0.008600
+Epoch 40 : Validation Miss rate 0.008100
+Epoch 41 : Validation Miss rate 0.009500
+Epoch 42 : Validation Miss rate 0.010100
+Epoch 43 : Validation Miss rate 0.008800
+Epoch 44 : Validation Miss rate 0.008900
+Epoch 45 : Validation Miss rate 0.008300
+Epoch 46 : Validation Miss rate 0.009600
+Epoch 47 : Validation Miss rate 0.008000
+Epoch 48 : Validation Miss rate 0.008500
+Epoch 49 : Validation Miss rate 0.008500
+Epoch 50 : Validation Miss rate 0.008200
+Test Data Miss rate : 0.007500
