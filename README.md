@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Batch-Normalization
 
 ## Description
@@ -12,3 +13,6 @@ This repo contains an implementation of [Batch Normalization](http://arxiv.org/a
 
 ## Further Explanation
 Further explanation of this code and the theory of batch normalization concept can be found on [my blog](http://shuuki4.wordpress.com). It is written in Korean. 
+=======
+# EMD-Batch_Normalization
+>>>>>>> 1cedc71d92ee09fd77b41bd4c253f1626ab3239b
