@@ -22,6 +22,7 @@ class ConvLayer(object) :
 
 		# Leaky ReLU
 		out = conv.conv2d(input, self.W, image_shape=input_shape, filter_shape=filter_shape, border_mode=border_mode) + self.b.dimshuffle('x', 0, 'x', 'x')
+                self.out = out
 		self.output = T.switch(out<0, 0.01*out, out)
 
 		# save parameter of this layer for back-prop convinience

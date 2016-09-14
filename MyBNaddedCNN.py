@@ -69,16 +69,16 @@ f = theano.function([input, y], cost, updates=updates) # for train
 test_f = theano.function([input], MLPlayer.get_result(mlp_input)) # for validation, test
 
 
-conv1out = theano.function([input], convlayer1.output)
+conv1out = theano.function([input], convlayer1.out)
 pool1out = theano.function([input], poollayer1.output)
 
 #no droplayer when added BN
 #drop1out = theano.function([input], dropout1.output)
 
-conv2out = theano.function([input], convlayer2.output)
+conv2out = theano.function([input], convlayer2.out)
 pool2out = theano.function([input], poollayer2.output)
 
-conv3out = theano.function([input], convlayer3.output)
+conv3out = theano.function([input], convlayer3.out)
 
 # real train area
 for epoch in range(10) : # to modify epoch number, change this number 

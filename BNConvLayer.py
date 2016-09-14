@@ -59,5 +59,6 @@ class BNConvLayer(object) :
 			out = conv.conv2d(input, self.W, image_shape=self.input_shape, filter_shape=self.filter_shape, border_mode=self.border_mode) + self.b.dimshuffle('x', 0, 'x', 'x')
 
 		# Leaky ReLU
+                self.out = out
 		self.output = T.switch(out<0, 0.01*out, out)
 		return self.output
